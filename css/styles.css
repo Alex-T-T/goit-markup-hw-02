@@ -1,0 +1,15 @@
+:root {
+  --text-main: #212121;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo-first-half {
+  color: #2196f3;
+}
