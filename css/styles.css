@@ -1,15 +1,67 @@
 :root {
-  --text-main: #212121;
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #2196f3;
+  --logo-text-color-light-theme: #000000;
+  --logo-text-color-dark-theme: #ffffff;
+  --main-bgd-color: #e5e5e5;
+  --secondary-bgd-color: #2f303a;
+  --nav-bgd-color: #ffffff;
+  --team-bgd-color: #f5f4fa;
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
 }
-
-.logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-text-color);
+}
+.link {
   text-decoration: none;
 }
-.logo-first-half {
-  color: #2196f3;
+.list {
+  list-style: none;
 }
+/* ==========START HEADER========== */
+header {
+  background-color: var(--nav-bgd-color);
+}
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color-light-theme);
+}
+.logo-first {
+  color: var(--logo-text-color);
+}
+.navigation-link {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--logo-text-color);
+}
+.connection-link {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.connection-link:hover,
+.connection-link:focus {
+  color: var(--logo-text-color);
+}
+/* ==========END HEADER========== */
+
+/* ==========START MAIN========== */
